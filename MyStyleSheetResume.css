@@ -1,0 +1,225 @@
+/*ZEESHAN'S PERSONAL RESUME*/
+/**{
+	padding:0px;
+	margin:0px;
+}*/
+/********************************
+	BACKGROUND
+*********************************/
+
+.main-wrapper{
+		
+		width:80%;
+		font-family: 'Ubuntu', sans-serif;
+		margin:auto;
+		color:black;
+		
+}
+
+h1{
+	text-transform:uppercase;
+	display:inline-block;
+	color:#358fd4;
+	
+	
+	}
+	
+
+h4{
+	color:#358fd4;
+	margin:0;
+	padding:0;
+	}	
+
+h5{
+	color:rgba(53,143,212,0.6);
+	margin:0;
+
+}
+	
+img{
+	height: 50px;
+	width:50px;
+	}
+	
+p{
+	margin: 0 0;
+	color:grey;
+	}
+	
+	
+/********************************
+	header
+*********************************/
+
+		
+.flexboxhead{
+	display:flex;
+	flex-direction:row-reverse;
+	flex-wrap:nowrap;
+
+	background-color:#358fd4;
+	background-image:linear-gradient(to right,#358fd4,#0078AF );
+	margin-bottom:10px;
+	
+}
+
+.Eclass1head{
+	flex:1;
+	
+	margin:auto;
+	
+	
+	}	
+.Eclass2head{
+	flex:1;
+	
+	}
+
+.flexboxhead h1{
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 4em;
+	text-align:left;
+	display:block;
+	width:72%;
+	margin:auto;
+
+	margin-bottom: 25px;
+	}
+.flexboxhead h2{
+	color:white;
+	font-size:1.15em;
+	
+	}
+.flexboxhead h2 a{
+	color:white;
+}
+	
+/********************************
+	Flexbox
+*********************************/	
+
+.flexbox{
+	display:flex;
+	flex-direction:row-reverse;
+	flex-wrap:nowrap;
+	
+	/**justify-content: flex-start;
+	align-items:flex-start;
+	align-content:flex-start;**/
+	  
+	
+	}
+.Eclass1{
+	flex:3;
+
+	
+	}
+
+.Eclass1 ul{
+
+	/**visibility: hidden;*/
+}		
+.Eclass2{
+	flex:1;
+	justify-content: center;
+	text-align:left;
+	margin: 0 10px 0 0 ;
+	/**background: red;**//
+	}
+
+#Education h1{
+	display:inline-block;
+	
+	}
+
+
+	
+
+	
+
+/********************************
+	Experience
+*********************************/
+
+#Experience{
+	margin-top:25px;
+	margin-bottom:25px;
+	}
+
+
+	
+/********************************
+	Skills
+*********************************/
+
+.Skills{
+	margin-top:25px;
+	margin-bottom:25px;
+	}
+
+	
+/********************************
+	Flexbox 1
+*********************************/	
+.flexbox1{
+	display:flex;
+	flex-direction:row;
+	
+}
+.box{
+	border:solid #358fd4;
+	flex:1;
+	justify-content: center;
+	text-align:center;
+	margin: 0 0 10px 10px ;
+	}
+.box p{
+	color:black;
+	}
+	
+#level{
+	border-left: thick solid #358fd4;
+	color:black;
+	padding-top:10px;
+	margin-bottom:15px;
+	}	
+	
+#softwaretitle{
+	margin-bottom:10px;
+	}
+.softwareid{
+	color:black;
+	}
+	
+	
+/********************************
+	Media Query 1
+*********************************/
+
+@media (max-width: 790px){
+.flexboxhead h1{
+	text-align:center;
+
+
+
+}
+/********************************
+	JQuery 
+*********************************/
+
+ .highlighted{
+
+ 	display:show;
+ }*/
+.hidden{
+
+	visibility: hidden;
+}
+
+
+
+	
+	
+	
