@@ -3,6 +3,16 @@
 	padding:0px;
 	margin:0px;
 }*/
+
+	/********************************
+	JQuery 
+*********************************/
+
+ .highlight{
+ 		
+ 	background-color:rgba(53,143,212,0.5);
+ 	color:white;
+ }
 /********************************
 	BACKGROUND
 *********************************/
@@ -14,13 +24,15 @@
 		margin:auto;
 		color:black;
 		
+	
+		
 }
 
 h1{
 	text-transform:uppercase;
 	display:inline-block;
 	color:#358fd4;
-	
+	text-align: left;
 	
 	}
 	
@@ -29,6 +41,7 @@ h4{
 	color:#358fd4;
 	margin:0;
 	padding:0;
+
 	}	
 
 h5{
@@ -44,9 +57,10 @@ img{
 	
 p{
 	margin: 0 0;
-	color:grey;
+	color:gray;
 	}
-	
+
+
 	
 /********************************
 	header
@@ -95,7 +109,6 @@ p{
 .flexboxhead h2 a{
 	color:white;
 }
-	
 /********************************
 	Flexbox
 *********************************/	
@@ -143,10 +156,10 @@ p{
 	Experience
 *********************************/
 
-#Experience{
+/*#Experience{
 	margin-top:25px;
 	margin-bottom:25px;
-	}
+	}*/
 
 
 	
@@ -159,7 +172,8 @@ p{
 	margin-bottom:25px;
 	}
 
-	
+
+
 /********************************
 	Flexbox 1
 *********************************/	
@@ -205,18 +219,8 @@ p{
 
 
 }
-/********************************
-	JQuery 
-*********************************/
 
- .highlighted{
 
- 	display:show;
- }*/
-.hidden{
-
-	visibility: hidden;
-}
 
 
 
